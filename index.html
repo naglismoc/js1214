@@ -33,17 +33,17 @@
 
         console.log(3 + 5 + " yra 8");
         console.log("astuoni gaunasi sudėjus " + 3 + 8);
-        console.log("astuoni gaunasi sudėjus " + (3 + 8) );
+        console.log("astuoni gaunasi sudėjus " + (3 + 8));
 
         console.log("labas " + "rytas");
 
         let num = 10;
         console.log(num);
-         num = 12;
+        num = 12;
         console.log(num);
-         num = 14;
+        num = 14;
         console.log(num);
-         num = 16;
+        num = 16;
         console.log(num);
         console.log(num);
         console.log(num);
@@ -53,22 +53,22 @@
 
         console.log("teiginys");
 
-        if(5 > 3){
+        if (5 > 3) {
             console.log("yra");
-        }else{
+        } else {
             console.log("Nėra");
         }
         console.log("teisingas!");
 
-        if(5 < 7 && 14 > 10){
+        if (5 < 7 && 14 > 10) {
             console.log("abu teiginiai teisingi");
         }
 
-        if(5 < 7 || 14 < 10){
+        if (5 < 7 || 14 < 10) {
             console.log("bent vienas teiginys yra teisingas");
         }
 
-        if(5 === "5"){
+        if (5 === "5") {
             console.log("lygu");
         }
 
@@ -88,24 +88,50 @@
         console.log(Math.random() * 10);
         console.log(Math.random() * 10);
         console.log(Math.random() * 10);
-       console.log( Math.ceil(0.11891981891));
+        console.log(Math.ceil(0.11891981891));
 
-       console.log("-------------------");
+        console.log("-------------------");
         let rnd = Math.random();
         console.log(rnd);
-       console.log(rnd  * 10 ); // 0 * 10 = 0; 0.999 * 10 = 9.99
-       console.log( Math.round(rnd  * 10) ); // 0 * 10 = 0; 0.999 * 10 = 9.99
+        console.log(rnd * 10); // 0 * 10 = 0; 0.999 * 10 = 9.99
+        console.log(Math.round(rnd * 10)); // 0 * 10 = 0; 0.999 * 10 = 9.99
 
-       let min = 5;
-       let max = 15;
-       let result = min + (Math.round(Math.random() * (max - min))); 
-       console.log(result);
-       result = 5 + (Math.round(Math.random() * 10 )); 
-    //    result = -5 + (Math.round(Math.random() * (15 - -5))); 
+        let min = 5;
+        let max = 15;
+        let result = min + (Math.round(Math.random() * (max - min)));
+        console.log(result);
+        result = 5 + (Math.round(Math.random() * 10));
+        //    result = -5 + (Math.round(Math.random() * (15 - -5))); 
 
         let rndNum = 0.61651646545648;
 
-        console.log(Math.round(rndNum * 1000) / 1000 );
+        console.log(Math.round(rndNum * 1000) / 1000);
+
+        console.log("kintamojo reiksme yra " + result);
+
+        console.log("======= uzd1 ========");
+
+        let name = "Naglis";
+        let surname = "Mockevičius";
+        let birthYear = 1990;
+        let currentYear = 2023;
+        //"Aš esu Vardenis Pavardenis. Man yra XX metai(ų)".
+        console.log("Aš esu " + name + " " + surname + ". Man yra " + (currentYear - birthYear) + "metai(ų).");
+
+
+        let num1 = Math.round(Math.random() * 4);
+        let num2 = Math.round(Math.random() * 4);
+        console.log(num1, num2);
+//jeigu num1 NĖRA LYGUS nuliui IR num2 NĖRA LYGUS nuliui, tada vykdom koda esanti zemiau
+        if (num1 > num2) {
+            console.log(num1 / num2);
+        } else {
+            console.log(num2 / num1);
+        }
+
+        if(4 != 5){
+            console.log("if salygoe pvz kaip patikrinti ar reiksmes nelygios");
+        }
     </script>
 </body>
 
