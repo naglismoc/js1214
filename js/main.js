@@ -147,3 +147,19 @@ if (naujokoUgis > sauliausUgis && naujokoUgis <= manoUgis){
 if(naujokoUgis > manoUgis){
     console.log("naujokas aukstensis");
 }
+
+let actorName = "Leonardas jr Dicaprio";
+console.log(actorName.length);
+console.log(actorName.toLowerCase() );
+console.log(actorName.toUpperCase() );
+
+console.log(actorName.charAt(0));
+console.log(actorName.substring(0,1));
+console.log(actorName.substring(actorName.length - 3));
+
+console.log(actorName.replace("a","u"));
+console.log(actorName.replaceAll("a","u"));
+console.log(actorName.replace(/\s+/g,'-'));
+
+let weirdText = "Star Wars: Episode "+ " ".repeat( Math.ceil(Math.random() * 10))+(Math.ceil (Math.random() * 7)+1) + " - A New Hope";
+console.log(weirdText);
