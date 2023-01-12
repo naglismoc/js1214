@@ -161,5 +161,9 @@ console.log(actorName.replace("a","u"));
 console.log(actorName.replaceAll("a","u"));
 console.log(actorName.replace(/\s+/g,'-'));
 
-let weirdText = "Star Wars: Episode "+ " ".repeat( Math.ceil(Math.random() * 10))+(Math.ceil (Math.random() * 7)+1) + " - A New Hope";
+let weirdText = "Star Wars: Episode "+ " ".repeat( Math.ceil(Math.random() * 10) ) + (Math.ceil (Math.random() * 7)+1) + " - A New Hope";
 console.log(weirdText);
+
+console.log(weirdText.charAt(weirdText.length - 14)); 
+console.log(weirdText.replaceAll(/[a-z :-]/gi, ""));
+
