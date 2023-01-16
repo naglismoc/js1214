@@ -110,3 +110,9 @@ for (let a = 1; a <= 10; a++) {
     console.log(row);
 }
 
+
+let count = 0;
+for (let o = 0; o < 10; o++) {
+    count++;
+}
+console.log(count);
