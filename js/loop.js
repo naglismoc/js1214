@@ -93,6 +93,7 @@ draugai[draugai.length] = "Ugnė";
 draugai[draugai.length] = "Ugnė";
 draugai[draugai.length] = "Ugnė";
 
+
 for (let i = 0; i < draugai.length; i++) {
     console.log(draugai[i]);
 }
@@ -120,7 +121,7 @@ for (let o = 0; o < 20; o++) {
 
 console.log(count);
 
-// Suskaičiuokite kiek 3čio uždavinio masyve yra žodžių trumpesnių nei 5 simboliai, ir kiek ilgesnių nei 7 simboliai. Skaičiuojam abu atskirai.
+//9. Suskaičiuokite kiek 3čio uždavinio masyve yra žodžių trumpesnių nei 5 simboliai, ir kiek ilgesnių nei 7 simboliai. Skaičiuojam abu atskirai.
 
 let count5 = 0;
 let count7 = 0;
